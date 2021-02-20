@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Músicxs en cada rincón</title>
+</head>
+<body>
+
+    <nav>
+        <div class="barra">
+            <ul class="menu wow animate__animated animate__fadeInRight">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="proyecto.html">El proyecto</a></li>
+                <li><a href="musicxs.html">Músicxs</a></li>
+                <li><a href="quienessomos.html">Quiénes somos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <section>
+        <h2 id="contactanos">Contactanos.</h2>
+        <div class="container">
+            <form action="#">
+                <div class="row">
+                    <div class="form-group col-5">
+                        <!-- <label>Nombre</label> -->
+                        <input type="text" class="form-control" placeholder="Nombre" > 
+                    </div>
+                    <div class="form-group col-5">
+                        <!-- <label>Apellido</label> -->
+                        <input type="text" class="form-control" placeholder="Apellido" > 
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form-group col-5">
+                        <!-- <label>Email</label> -->
+                        <input type="text" class="form-control" placeholder="Email" > 
+                    </div>
+                    <div class="form-group col-5">
+                        <select class="custom-select">
+                            <option selected>Motivo de consulta</option>
+                            <option value="1">Participar</option>
+                            <option value="2">Contrataciones</option>
+                            <option value="3">Dudas y consultas</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form-floating col-10">
+                        <label for="exampleFormControlTextarea1">Comentarios </label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form-group col-10">
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="customCheck1">
+                            <label class="custom-control-label" for="customCheck1">¿Desea suscribirse a novedades?</label>
+                        </div>
+                    </div>
+                </div>
+                <button class="btn btn-primary" type="submit">Enviar</button>
+                <button type="button" class="btn btn-light">Limpiar</button>
+            </form>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="contenedorFooter" id=contenedorFooterContacto>   
+            <div class="divFooter1">
+                <p>BA, Argentina</p>
+                <p>hola@musicxs.com</p>
+                <p>+5212345678</p>
+            </div>
+            <div class="divFooter2">
+                <p><a href="index.html">Músicxs por el mundo.</a></p>
+                <p>Copyright ©2020 Todos los derechos reservados</p>
+            </div>  
+        </div>
+    </footer>
+
+    <script src="js/wow.min.js"></script>
+    <script> new WOW().init(); </script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+</body>
+</html>
